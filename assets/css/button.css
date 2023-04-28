@@ -13,5 +13,5 @@
 .btn:hover{
     background-color: transparent;
     color:#dc143d;
-    transition: .7s;
+    transition: .5s;
 }
