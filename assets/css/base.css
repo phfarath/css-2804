@@ -1,0 +1,40 @@
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* google fonts  */
+    font-family: 'Catamaran', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-repeat: none;
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+}
+
+.bg-dark {
+    background-color: #000;
+}
+
+.bg-image1 {
+    background-image: linear-gradient(rgba(12, 23, 71, 0.3), rgba(20, 19, 20, 0.6)),
+    url(../images/3.webp);
+}
+
+.bg-image-2 {
+    background-image: url(../images/mountains-190055_1280.jpg);
+}

@@ -1,0 +1,17 @@
+.btn{
+    border: 2px solid #dc143d;
+    padding: 5px 30px;
+    background-color: #dc143d;
+    /* arredonda os cantos do botao */
+    border-radius: 70px;
+    /* definindo fonte  */
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+/* elemento para o estado do btn(ponteiro do mouse sobre o botao) */
+.btn:hover{
+    background-color: transparent;
+    color:#dc143d;
+    transition: .7s;
+}
